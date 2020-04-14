@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This document contains data on Codifica di Testi.
+   Filename: Esercizio3.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 26/03/2020
+   XML non opportunamente annidato corretto e aggiunte
+   Slide 59 XML-->
+
+<element>
+   <figli> 
+      raccolta dei figli
+      <figlio1> figlio 1 </figlio1> <!--correzione dell'apertura e chiusura del tag figlio1-->
+      <figlio2 />
+      <child>
+		<sibling1 />
+		<sibling2 />
+      </child>
+   </figli> <!--correzione del tag figli-->
+</element>
+
+
+<!--Correzioni da xmllint
+	Esercizio2.xml:15: parser error : Opening and ending tag mismatch: figlio1 line 14 and figli
+   </figli> 
+           ^
+Esercizio2.xml:16: parser error : expected '>'
+   </figlio1>
+
+
+-->
