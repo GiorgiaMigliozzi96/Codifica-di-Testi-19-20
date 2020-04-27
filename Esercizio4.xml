@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- This document contains data on Codifica di Testi.
+   Filename: Esercizio4.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 26/03/2020
+   Inserire all'interno di un tag un frammento di codice HTML
+   Slide 71 
+   Raccolta: Elementi XML-->
+   
+<root>
+      <htmlCode>
+         <![CDATA[
+            <body>
+               <div id = "qualcosa">
+                  <ul id = "Menu">
+                     <li><a href = "index.html">Home</a></li>
+                     <li><a href = "pagina_1.html">Il gioco</a></a></li>
+                  </ul>
+               </div>
+            </body>
+         ]]>
+      </htmlCode>
+</root>
