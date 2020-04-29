@@ -1,0 +1,4 @@
+<!DOCTYPE radice [
+   <!ELEMENT radice (figlio) >
+   <!ELEMENT figlio (#PCDATA)>
+]>

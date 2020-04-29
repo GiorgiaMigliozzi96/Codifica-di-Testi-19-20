@@ -1,0 +1,8 @@
+<?xml version= "1.0" encoding= "utf-8" standalone= "yes" ?>
+<!DOCTYPE radice SYSTEM "./Esercizio7.dtd"> 
+
+<radice>
+   <figlio>
+      dati testuali
+   </figlio>
+</radice>
