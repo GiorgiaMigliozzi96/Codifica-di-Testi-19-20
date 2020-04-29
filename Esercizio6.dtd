@@ -1,0 +1,31 @@
+<?xml version= "1.0" encoding = "utf-8" standalone= "yes"?>
+<!-- This document contains data on Codifica di Testi.
+   Filename: Esercizio6.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 2/04/2020
+   Definire elementi di una DTD
+   Slide 102
+   Raccolta: Elementi XML-->
+   
+
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile(#PCDATA)>
+<!ELEMENT testo(#PCDATA|seg)*>
+<!ELEMENT seg(#PCDATA)>
+
+<!ATTLIST header 
+            type  CDATA #FIXED
+            lang  NMTOKEN #REQUIRED
+            >
+            
+<!ATTLIST facsimile 
+            source   CDATA #REQUIRED
+            ref   IDREFS #IMPLIED
+            >
+            
+<!ATTLIST testo 
+            id    ID #REQUIRED
+            type  CDATA #IMPLIED
+            >
