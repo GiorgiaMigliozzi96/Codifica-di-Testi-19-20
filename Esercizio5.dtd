@@ -1,0 +1,16 @@
+<?xml version= "1.0" encoding = "utf-8" standalone= "yes"?>
+<!-- This document contains data on Codifica di Testi.
+   Filename: Esercizio5.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 2/04/2020
+   Definire elementi di una grammatica con una DTD
+   Slide 92
+   Raccolta: Elementi XML-->
+   
+
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header(#PCDATA)>
+<!ELEMENT facsimile(#PCDATA)>
+<!ELEMENT testo(#PCDATA)>      
+
