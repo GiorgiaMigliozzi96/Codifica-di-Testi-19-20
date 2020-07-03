@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This document contains data on Codifica di Testi.
    Filename: Esercizio3.xml
@@ -6,8 +6,7 @@
    Matricola: 536803
    Date: 26/03/2020
    XML non opportunamente annidato corretto e aggiunte
-   Slide 59 
-   Raccolta: Elementi XML-->
+   Slide 59 XML-->
 
 <element>
    <figli> 
