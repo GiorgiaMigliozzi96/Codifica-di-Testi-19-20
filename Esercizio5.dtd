@@ -8,7 +8,8 @@
    Raccolta: Elementi XML-->
    
 
-<!ELEMENT TEI (header, facsimile?, text+)>
-<!ELEMENT header(#PCDATA)>
-<!ELEMENT facsimile(#PCDATA)>
-<!ELEMENT text(#PCDATA)>
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA)>      
+
