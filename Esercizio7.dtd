@@ -1,4 +1,12 @@
-<!DOCTYPE radice [
-   <!ELEMENT radice (figlio) >
-   <!ELEMENT figlio (#PCDATA)>
-]>
+<!-- This document contains data on Codifica di Testi.
+   Filename: Esercizio6.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 29/04/2020
+   Definire elementi di una DTD
+   Slide 108
+   Raccolta: Elementi XML-->
+   
+
+<!ELEMENT radice (figlio) >
+<!ELEMENT figlio (#PCDATA)>

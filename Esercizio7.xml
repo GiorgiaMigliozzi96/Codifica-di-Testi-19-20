@@ -1,13 +1,13 @@
 <?xml version= "1.0" encoding= "utf-8" standalone= "yes" ?>
+
 <!-- This document contains data on Codifica di Testi.
-   Filename: Esercizio7.xml
+   Filename: Esercizio6.xml
    Author: Giorgia Migliozzi
    Matricola: 536803
-   Date: 26/03/2020
-   Creare un documento XML basata su di una DTD
+   Date: 29/04/2020
+   Definire elementi di una DTD
    Slide 108
    Raccolta: Elementi XML-->
-   
 
 <!DOCTYPE radice SYSTEM "./Esercizio7.dtd"> 
 
