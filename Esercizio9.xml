@@ -4,8 +4,8 @@
    Author: Giorgia Migliozzi
    Matricola: 536803
    Date: 04/05/2020
-   Codifica di un testo di circa 3000 caratteri
-   Slide 73 
+   Codifica di un articolo di una rivista
+   Slide 156
    Raccolta: 5 Elementi TEI-->
 
 
@@ -30,7 +30,7 @@
         </fileDesc>
         <sourceDesc>
             <bibl>
-                <title>Un vino metropolitano</title>
+                <title level="j">Un vino metropolitano</title>
                 <author>Maria Pace Ottieri</author>
                 <imprint>
                     <publisher>Touring Club Italiano</publisher>
