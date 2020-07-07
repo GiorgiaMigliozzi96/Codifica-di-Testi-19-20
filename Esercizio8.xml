@@ -16,7 +16,7 @@
             <title>La ragazza che hai lasciato: versione elettronica</title>
             <respStmt>
                <resp>Conversione TEI P5 a cura di</resp>
-               <name>G. Migliozzi</name>
+               <name>Giorgia Migliozzi</name>
             </respStmt>
          </titleStmt>
          <pubblicationStmt>
@@ -25,62 +25,74 @@
          </pubblicationStmt>
          <sourceDesc>
             <bibl>
-               <title>La ragazza che hai lasciato</title>
+               <title type="main">La ragazza che hai lasciato</title>
+               <title type="sub">Luna di miele a Parigi</title>
                <author>Jojo Moyes</author>
-               <publisher>Mondadori</publisher>
-               <date>2015</date>
+               <imprint>
+                  <publisher>Mondadori Libri S.p.A</publisher>
+                  <pubPlace>Milano</pubPlace>
+                  <date>2017</date>
+               </imprint>
+               <extent>Trascrizione di circa 3000 caratteri dal testo</extent>
+               <citedRange from="67" to="73">pagine da 67 a 73</citedRange>
             </bibl>
          </sourceDesc>
       </fileDesc>
       
-      <encodingDesc>
-         
-      </encodingDesc>
-      
    </teiHeader>
    
-   <text>
+   <text xml:lang="it">
       <front>
-         <intestazione>LA RAGAZZA CHE HAI LASCIATO</intestazione>
-         <hi rend = "italic">A Charles, come sempre</hi>
-         <pb />
-         <intestazione>PRIMA PARTE</intestazione>
-         <pb />
+         <pb n="67"/>
+         <docTitle>
+            <titlePart>La ragazza che hai lasciato</titlePart>
+         </docTitle>
+         <epigraph>
+            <l rend="italic">A Charles, come sempre</l>
+         </epigraph>
+         <pb n="68"/>
+         <titlePart>Prima parte</titlePart>
       </front>
       
       <body>
          <div xml:lang="it">
-            <intestazione>I</intestazione>
-            <pb n="71" />
-            <p><hi rend = "italic">St. Peronne, ottobre 1916</hi></p>
-            <p>Stavo sognando il cibo. <foreign xml:lang = "fr">Baguette</foreign> croccanti, con la mollica di un bianco immacolato, ancora calde di forno, e formaggio sta-<lb />
+            <titlePart>I</titlePart>
+            <hi rend = "italic"><placeName><foreign xml:lang="fr">St.</foreign> Peronne</placeName>, ottobre 1916.</hi>
+            <p>Stavo sognando il cibo. 
+               <foreign xml:lang = "fr">Baguette</foreign> croccanti, con la mollica di un bianco immacolato, ancora calde di forno, e formaggio sta-<lb />
                gionato, con i bordi morbidi che si aprivano scivolando verso l’orlo del piatto. Uva e susine impilate nel portafrutta, scure e fragranti, che riempivano l’aria con il loro profumo. Stavo allungando la mano per prendere un frutto quando mia sorella mi fermò. “Vattene” mormorai. “Ho fame”.</p>
-            <p>“Sophie, svegliati.”</p>
-            <p>Mi sembra di sentire davvero il sapore del formaggio in bocca. Volevo rubare un pezzetto di <foreign xml:lang = "fr">Reblochon</foreign>, spalmarlo su un pezzo di quel bel pane caldo e poi piluccare qualche acino d’uva. Riuscivo già a gustarne l’intensa dolcezza, ad assapo-<lb />
+            <p>“<persName>Sophie</persName>, svegliati.”</p>
+            <p>Mi sembra di sentire davvero il sapore del formaggio in bocca. Volevo rubare un pezzetto di 
+               <foreign xml:lang = "fr">Reblochon</foreign>, spalmarlo su un pezzo di quel bel pane caldo e poi piluccare qualche acino d’uva. Riuscivo già a gustarne l’intensa dolcezza, ad assapo-<lb />
                rarne l’aroma ricco.</p>
             <p>Ma ecco la mano di mia sorella che mi afferra il polso bloccandomi. I piatti spariscono, gli odori svaniscono. Cerco di avvici-<lb />
                narmi, ma loro cominciano a dissolversi come bolle di sapone.</p>
-            <p>“Sophie.”</p>
+            <p>“<persName>Sophie</persName>.”</p>
             <p>“Che c’è?”</p>
-            <p>“Hanno preso Aurélien!”</p>
-            <p>Mi girai sul fianco e sbattei le palpebre. Mia sorella indossava una cuffietta di cotone, come me, per tenere calda la testa. Anche alla debole luce della candela, il suo viso era esangue, gli occhi sbarrati dalla paura. “Hanno preso Aurélien. Da basso.”</p>
+            <p>“Hanno preso <persName>Aurélien</persName>!”</p>
+            <p>Mi girai sul fianco e sbattei le palpebre. Mia sorella indossava una cuffietta di cotone, come me, per tenere calda la testa. Anche alla debole luce della candela, il suo viso era esangue, gli occhi sbarrati dalla paura. “Hanno preso <persName>Aurélien</persName>. Da basso.”</p>
             <p>A poco a poco, ritrovai la lucidità. Dal piano di sotto arriva-<pb n="72" />
                vano urla di uomini, voci alterate che rimbalzavano sulle pietre del cortile, mentre le galline chiocciavano nel pollaio. Nel buio fitto, l’aria vibrava di un terribile sentore. Mi tirai a sedere sul letto, mi avvolsi nella vestaglia e cercai di accendere la candela sul comodino.</p>
             <p>Barcollando, mi avvicinai alla finestra in punta di piedi e guardai giù in cortile. Vidi i soldati illuminati dai fari della loro camionetta e mio fratello minore che si proteggeva la testa con le braccia cercando di scansare i colpi che gli venivano inferti con il calcio dei fucili.</p>
             <p>“Cosa sta facendo?”</p>
             <p>“Sanno del maiale.”</p>
             <p>“Cosa?”</p>
-            <p>“<foreign xml:lang = "fr">Monsieur</foreign> Suel deve aver fatto la spia. Li ho sentiti gridare dalla mia stanza. Minacciano di prendere Aurélien se non dice dov’è.”</p>
+            <p>“
+               <persName><foreign xml:lang = "fr">Monsieur</foreign> Suel</persName> deve aver fatto la spia. Li ho sentiti gridare dalla mia stanza. Minacciano di prendere <persName>Aurélien</persName> se non dice dov’è.”</p>
             <p>“Non dirà nulla” replicai.</p>
             <p>Trasalimmo nell’udire nostro fratello che urlava. In quel mo-<lb />
                mento stentavo a riconoscere mia sorella: aveva ventiquattro anni, ma ne dimostrava una ventina in più. Sapevo che sul mio viso si leggeva la stessa paura. Stava accadendo quello che avevamo temuto.</p>
-            <p>“C’è un <foreign xml:lang = "de">Kommandant</foreign> con loro. Se lo trovano” sussurrò Hé-<lb />
-               lène, la voce rotta dal panico “ci arresteranno tutti. Sai quello che è successo ad Arras. Ci daranno una punizione esemplare.<lb />
+            <p>“C’è un 
+               <foreign xml:lang = "de">Kommandant</foreign> 
+               con loro. Se lo trovano” sussurrò <persName>Hé-<lb />lène</persName>, la voce rotta dal panico “ci arresteranno tutti. Sai quello che è successo ad <persName>Arras</persName>. Ci daranno una punizione esemplare.<lb />
                Che ne sarà dei bambini?”</p>
             <p>La mia mente galoppava e la paura che mio fratello si la-<lb />
-               sciasse sfuggire qualcosa mi confondeva. La presenza di un <foreign xml:lang = "de">Kommandant</foreign> significava che questi non erano dei semplici soldati ubriachi desiderosi di scaricare le loro frustrazioni con qualche minaccia e qualche pugno: eravamo davvero nei guai.<lb /> La sua presenza significava che avevamo commesso un crimine che andava punito severamente.</p>
-            <p>“Lo troveranno, Sophie. È questione di minuti. E poi…” La voce di Hélène si alzò, alterata dal panico.</p>
-            <p>Iniziai a pensare al peggio. Chiusi gli occhi per un istante, poi li riaprii. “Scendi” dissi. “Fingi di non sapere. Chiedigli che cosa ha fatto di male Aurélien. Parlagli, cerca di distrarlo. Dammi soltanto un po’ di tempo prima che entrino in casa.”</p>
+               sciasse sfuggire qualcosa mi confondeva. La presenza di un 
+               <foreign xml:lang = "de">Kommandant</foreign> 
+               significava che questi non erano dei semplici soldati ubriachi desiderosi di scaricare le loro frustrazioni con qualche minaccia e qualche pugno: eravamo davvero nei guai.<lb /> 
+               La sua presenza significava che avevamo commesso un crimine che andava punito severamente.</p>
+            <p>“Lo troveranno, <persName>Sophie</persName>. È questione di minuti. E poi…” La voce di <persName>Hélène</persName>si alzò, alterata dal panico.</p>
+            <p>Iniziai a pensare al peggio. Chiusi gli occhi per un istante, poi li riaprii. “Scendi” dissi. “Fingi di non sapere. Chiedigli che cosa ha fatto di male <persName>Aurélien</persName>. Parlagli, cerca di distrarlo. Dammi soltanto un po’ di tempo prima che entrino in casa.”</p>
             <pb n="73" />
          </div>
       </body>    
