@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This document contains data on Codifica di Testi.
+   Filename: EsercizioN.xml
+   Author: Giorgia Migliozzi
+   Matricola: 536803
+   Date: 04/05/2020
+   Codifica di un testo di circa 3000 caratteri
+   Slide 73 
+   Raccolta: 5 Elementi TEI-->
+
+
+<TEI xmlns = "http://www.teic.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Un vino metropolitano: edizione digitale </title>
+                <editionStmt>
+                    <edition>Edizione digitale</edition>
+                    <date when="05-2020">May 2020</date>
+                    <respStmt>
+                        <resp>Edizione digitale TEI P5 a cura di</resp>
+                        <name>Giorgia Migliozzi</name>
+                    </respStmt>
+                </editionStmt>
+            </titleStmt>
+            <pubblicationStmt>
+                <publisher>Universita' di Pisa</publisher>
+                <date>05-2020</date>
+            </pubblicationStmt>
+        </fileDesc>
+        <sourceDesc>
+            <bibl>
+                <title>Un vino metropolitano</title>
+                <author>Maria Pace Ottieri</author>
+                <imprint>
+                    <publisher>Touring Club Italiano</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>10-2019</date>
+                </imprint>
+                <extent>Trascrizione di un articolo della rivista</extent>
+                <citedRange from="56" to="58">pagine da 56 a 58</citedRange>
+            </bibl>
+        </sourceDesc>
+    </teiHeader>
+    
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>Un vino metropolitano</titlePart>
+            </docTitle>
+            <p>Testo di <byline>Maria Pace Ottieri</byline>.</p>
+            <abstract>
+                <div>
+                    <p><placeName>Napoli</placeName> è l'unica città europea ad avere una vigna in pieno centro.</p>
+                    <p>E' quella di S. Martino, nata nel Trecento con l'omonima <placeName>Certosa</placeName>.</p>
+                    <p>Ma anche verso <placeName>Posillipo</placeName> e nei <placeName>Campi Flegrei</placeName> si produce vino e al tempo stesso si difende il paesaggio come bene comune.</p>
+                </div>
+            </abstract>
+        </front>
+        <body>
+            <div n="1" type="section">
+                <p><hi rend="bold"><hi rend="double">Non</hi> si immagina che, dopo <placeName>Vienna</placeName>, <placeName>Napoli</placeName> sia la città europea con la maggiore superficie di vigne</hi> e la sola ad averne in pieno centro, con l'ingresso dal trafficato <placeName>corso Vittorio Emanuele</placeName>: è la <placeName>Vigna di S. Martino</placeName>, nata con la trecentesca <placeName>Certosa di S. Martino</placeName> sulla collina del <placeName>Vomero</placeName>.</p>
+                <p>Nel 1967 ha rischiato di essere soffocata da una <term>colata</term> di villette a schiera previste dal piano regolatore del 1939: una denuncia sulla stampa fece vincolare l'intera zona, ma solo nel 2010 i sette <term>ettari</term> <term>agricolo</term>-<term>metropolitani</term> vengono dichiarati "Bene di interesse storico artistico" ed entrano a far parte del patrimonio culturale italiano.</p>
+                <p>Il vincolo definitivo lo si deve a <persName xml:id="#GIM">Giuseppe Morra</persName>, <term>gallerista</term> e <term>collezionista</term>, proprietario della vigna dal 1988, quando la comprò dalla famiglia milanese che l'aveva abbandonata.</p>
+                <p>Era coperta di rovi, sterpaglie, alberi bruciati e materiale di risulta e ci volle un immane lavoro, molti uomini e tre anni di tempo per rivelare a poco a poco l'opera davvero <term>certosina</term> dei monaci che per sei secoli l'avevano modellata con terrazzamenti, muri di conternimento, canalizzazioni per l'acqua e un sistema di sentieri tra la Certosa e altri conventi, indipendente dalle strade del <placeName>Petraio</placeName>, della <placeName>Pedamentina</placeName> e della collinare per <placeName>Antignano</placeName>, che collegano la città alla <placeName>Certosa</placeName> e al <placeName>forte di S. Elmo</placeName>.</p>
+            </div>
+            <div n="2" type="section">
+                <p><hi rend="bold">Sono riemerse le antiche vigne di <term>piedirosso</term>, <term>catalanesca</term>, <term>aglianico</term> e <term>falanghina</term>,</hi> centinaia di ulivi, aranci, limoni, mandarini, e innumerevoli fiori e erbe spontanee, probabilmente le stesse con cui i monaci preparavano <pb n="58"/><term>medicamenti</term> e amari.</p>
+                <p>Da anni nella vigna vivevano asini, galline, un gallo e alcuni pavoni fino a quando i vicini non si sono lamentati per i versi e gli sconfinamenti, così pavoni e gallo sono stati allontanati.</p>
+                <p>Trent'anni or sono <persName ref="#GIM">Morra</persName> ha voluto ripristinare tutto com'era secoli prima: è rinata l'azienda agricola, condotta da <persName xml:id="GS">Giovanni Santoro</persName> che innesta limoni e pompelmi, recupera ceppi di <term>uvaggi</term> antichi e conosce il terreno palmo a palmo, mentre l'associazione <orgName>Piedi per la terra</orgName> apre la vigna a visite didattiche per bambini e organizza laboratori di apicultura, orticultura, vendemmia, pranzi, serate di musica e d'arte, tanto che si è creata la <orgName>Comunità rurale urbana Vigna S. Martino</orgName>.</p>
+            </div>
+            <div n="3" type="section">
+                <p><hi rend="bold">Più a est, sulle colline di <placeName>Posillipo</placeName>, si disegnano i vigneti urbani</hi> dell'<orgName>>Azienda Varriale</orgName>, una delle più antiche e vicine al mare, degli <orgName>Astroni di Gerardo Vernazzaro</orgName>, le <orgName>Cantine Federiciane Monteleone di LucaPalumbo</orgName>, le <orgName>Vigne di Parthenope di Aniello Quaranta</orgName>.</p>
+            </div>
+            <div n="4" type="section">
+                <p><hi rend="bold">La più orientale, in pieni <placeName>Campi Flegrei</placeName>, è l'azienda agricola <orgName>Agnanum</orgName>,</hi> dieci ettari di colline strette fra <placeName>Agnano</placeName>, la zona delle terme e dell'ippodromo e il bosco degli <persName>Astroni</persName>, oasi del <orgName>WWF</orgName>.</p>
+                <p><persName xml:id="#RM">Raffaele Moccia</persName> lavora nella vigna da quando è bambino, a quattro anni strappava le erbe infestanti, a sette si inerpicava con un secchio d'acqua per mano sui pendii, negli ultimi vent'anni ha rilevato sei ettari di vigneti abbandonati da cugini meno tenaci di lui e li ha aggiunti ai suoi quattro ereditati dal nonno per ricomporre il vigneto di famiglia.</p>
+                <p>Si definisce uno degli ultimi <term>vutecari</term>, <gloss>gli ingegneri della vigna che sapevano progettare, costruire e manutenere i vigneti in questo terreno fatto a strati fertilissimi di lapilli ma friabili e polverosi di cenere.</gloss></p>
+                <p>Su e giù con il quad, aiutato solo di recente dal figlio, <persName xml:id="GEM">Gennaro</persName>, <persName ref="#RM">Raffaele</persName> ha fatto a mano, con la zappa, tutti i terrazzamenti, scavato le fosse per smaltire l'eccesso di acqua che precipita a valle, recuperato vitigni centenari, <hi rend="italic">per' e palumm</hi>, falanghina, la vite gesummina a bacca bianca, caprettone, catalanesca, rare sopravvivenze del vigneto europeo che la <term>filossera</term> spazzò via 150 anni fa e che qui invece il terreno vulcanico ha tenuto miracolosamente lontana.</p>
+                <p>Se la famiglia ha sempre prodotto e venduto vino sfuso in quantità, <persName ref="#RM">Moccia</persName> ha puntato sulla qualità e si è guadagnato i tre bicchieri del <orgName>Gambero Rosso</orgName>.</p>
+                <p>Non sono questi esempi mirabili di creatori e manutentori del paesaggio?</p>
+                <p>Di persone coraggiose e infaticabili che si prendono cura dei propri luoghi considerandoli beni comuni?</p>
+            </div>
+        </body>
+    </text>
+</TEI>
